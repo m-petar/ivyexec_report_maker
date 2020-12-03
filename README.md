@@ -1,13 +1,13 @@
 # ivyexec_report_maker
 Chrome extension
 
-<p>Installation <br/>
-Download as a .zip file, then extract. <br/>
+<h3>Installation </h3>
+<p>Download as a .zip file, then extract. <br/>
 In Google Chrome navigate to Settings> More Tools> Extensions. <br/>
 Enable Developer mode and click Load unpacked, then navigate to the location of unzipped extension folder and open it.</p> 
 
-</p>Usage<br/>
-Copy Google sheet url.<br/>
+<h3>Usage</h3>
+<p>Copy Google sheet url.<br/>
 Click on extension icon next to browser address bar.<br/>
 Paste url into Sheet Url field.<br/>
 Select the dates and click on Generate Company List. <br/>

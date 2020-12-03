@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IvyExec Weekly Report Maker</title>
+    <link href="popup.css" rel="stylesheet" type="text/css">
+    <!-- ovo mora da stoji u manifestu, ukoliko se biblioteka povlaci sa neta:   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com https://docs.google.com ; object-src 'self'", -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>-->
+    <script src="sheetrock.min.js"></script>
+  </head>
+  <body>
+    <h3>IvyExec Weekly Report Maker</h3><br />
+    
+    <table id="tabelaDatumi">
+      <tbody>
+      <tr>
+        <td>
+            <label for="xxx">Check all companies</label>
+        </td>
+        <td>
+            <input id="checkAll" type="checkbox" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="sheetUrl">Sheet Url: </label>
+        </td>
+        <td>
+            <input id="sheetUrl" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="fromDate">From </label>
+        </td>
+        <td>
+            <input id="fromDate" type="date" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="toDate">To </label>
+        </td>
+        <td>
+            <input id="toDate" type="date" />
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <button id="pokreniPretragu">Generate Company List</button>
+    <a href="https://www.ivyexec.com/employers/auth/login" id="generateReportBtn" class="button1">Generate Report</a>
+    <p id="test"></p>
+    <table id="table">
+      <tr>
+        <th>Company</th>
+        <th>Login</th>
+        <th>Pass</th>
+        <th>Last Posted</th>
+      </tr>
+    </table>
+    <script src="popup.js"></script>
+  </body>
+</html>

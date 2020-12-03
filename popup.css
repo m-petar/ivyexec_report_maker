@@ -1,0 +1,78 @@
+body {
+    min-width: 800px;
+    font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
+  }
+  #sheetUrl {
+    font-size: 1em;
+    padding: 0.3em;
+  }
+  #table {
+    border-collapse: collapse;
+    width: 100%;
+    display: none;
+  }
+  
+  #table td,
+  #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  #table tr:hover {
+    background-color: #ddd;
+  }
+
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white; 
+  } 
+  #fromDate {
+    margin-bottom: 10px;
+  }
+  #sheetUrl {
+    margin-bottom: 10px;
+  }
+  #tabelaDatumi td {
+    margin-bottom: 10px;
+  } 
+  .firstRowData {
+    margin-bottom: 10px;
+  }
+  #generateReportBtn {
+    display: none;
+  }
+  #pokreniPretragu {
+    background-color: #1c87c9;
+    font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+     background-color: #50b1ed;
+     font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 12px;
+     margin: 4px 2px;
+     cursor: pointer;
+  }
+
+ 

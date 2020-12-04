@@ -1,6 +1,10 @@
 # ivyexec_report_maker
 Chrome extension
 
+<p>This app automates the task of checking the status of job advertisements posts on Ivyexec website.
+When done manually, this consists of checking if a certain company account on Ivyexec website was posted into for the given period of time. 
+Then, using the right credentials, logging into each company account, browsing through job advertisements posts, page by page, and checking each job post's status that can either be active, pending, expired, disapproved or disabled; then logging out and repeating the process again for another company account and so on. </p>
+
 <h3>Installation </h3>
 <p>Download as a .zip file, then extract. <br/>
 In Google Chrome navigate to Settings> More Tools> Extensions. <br/>

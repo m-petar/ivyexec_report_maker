@@ -35,7 +35,7 @@ function changeToDate() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("pokreniPretragu").addEventListener("click", sheetSearch);
+  document.getElementById("generateCompanyList").addEventListener("click", sheetSearch);
   
   let location = generateReportBtn.href;
   generateReportBtn.onclick = function() {

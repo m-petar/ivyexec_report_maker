@@ -11,7 +11,7 @@ In Google Chrome navigate to Settings> More Tools> Extensions. <br/>
 Enable Developer mode and click Load unpacked, then navigate to the location of unzipped extension folder and open it.</p> 
 
 <h3>Usage</h3>
-<p>Copy Google sheet url.<br/>
+<p>Copy Google sheet url. (Specific Ivyexec Google sheet url must be provided in order to work properly.)<br/>
 Click on extension icon next to browser address bar.<br/>
 Paste url into Sheet Url field.<br/>
 Select the dates and click on Generate Company List. <br/>

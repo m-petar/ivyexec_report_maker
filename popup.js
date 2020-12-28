@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   };
 });
-
 // function urlInputChange() {
 //   urlAddress = document.getElementById("sheetUrl").value;
 // }
